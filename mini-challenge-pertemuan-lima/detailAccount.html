@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <div>
+            {{if .Email}}
+            <h1>Hello {{.Nama}}</h1>
+            <p>Email: {{.Email}}</p>
+            <p>Alamat: {{.Alamat}}</p>
+            <p>Pekerjaan: {{.Pekerjaan}}</p>
+            <p>Alasan: {{.Alasan}}</p>
+            {{else}}
+            <h1>No Email Found</h1>
+            {{end}}
+         </div>
+    </body>
+</html>
